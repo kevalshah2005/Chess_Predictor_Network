@@ -51,4 +51,18 @@ The target dataset was used to contain the expected outputs for each chess match
 Fig. 5 _Visual representation of target data set_
 
 ### Data Manipulation
+In order to input our training data and target data into the neural network, they had to be converted from it's raw format into a normalized, network compatible structure. To do so, we one-hot encoded the data values using the Pandas function "get_dummies." This function changes each value in the data set from a single number into a binary array of possible numbers. More specifically, each column is split up into multiple columns of zeroes and ones, the amount of which is defined by the number of possible states of the variable. For example, since the event column has 7 possibilites, it is seperated into 7 columns each containing a 0 or a 1 (displayed in Fig. 6). If a specific chess match was of a certain type, the zero in that column would be changed to a one. This process normalizes the data, making it compatible with the neural network. Once we had completed one-hot encoding our data, it simply had to be converted into a numpy array and inputted into the network.
+
+![image](https://user-images.githubusercontent.com/74797855/132558614-66bcfb76-e4f8-4d75-ba93-86337f03c4b9.png)
+Fig. 6 _Table of one-hot encoded data set_
+
+In order to ensure that our network was not suffering from overfitting, we split up the data and target arrays into training data/targets and validation and testing data/targets. Doing so allowed us to train the network using most of the data set, while testing the model on "new" data, to make sure it wasn't baised towards only one data set. As shown in the image below, we divided the first 800,000 data points into the training data and target arrays, and allotted the the rest of the data set (about 200,100 data points) into the validation/testing data and target arrays.
+
+![image](https://user-images.githubusercontent.com/74797855/132559623-046b16d8-23b4-4686-b15b-627ec2f025ff.png)
+_Seperation of data set into the training data/targets arrays and the validation/testing data/targets arrays
+
+## Neural Network Overview
+
+### Architecture
+The final build of our neural network was a dense six layer model. After the input layer (which had as many nodes as there were columns in the data set), our 4 hidden layers had 16, 16, 8, and 4 nodes resepectively. Our output layer then contained three nodes, as the possible outcomes of each chess game are black wins, white wins, and tie. This network structure was effective for our project, because
 **Bold** and _Italic_ and `Code` text
