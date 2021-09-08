@@ -61,7 +61,7 @@ In order to ensure that our network was not suffering from overfitting, we split
 
 ![image](https://user-images.githubusercontent.com/74797855/132559623-046b16d8-23b4-4686-b15b-627ec2f025ff.png)
 
-_Seperation of data set into the training data/targets arrays and the validation/testing data/targets arrays
+_Seperation of data set into the training data/targets arrays and the validation/testing data/targets arrays_
 
 ## Neural Network Overview
 
