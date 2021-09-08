@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Chess Outcome Predictor
 
 You can use the [editor on GitHub](https://github.com/Systemoutprintjhb/Chess_Predictor_Network/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
