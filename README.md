@@ -69,6 +69,7 @@ _Seperation of data set into the training data/targets arrays and the validation
 The final build of our neural network was a dense six layer model. After the input layer (which had as many nodes as there were columns in the data set), our 4 hidden layers had 16, 16, 8, and 4 nodes resepectively (displayed visually in Fig. 7). Our output layer then contained three nodes, as the possible outcomes of each chess game are black wins, white wins, and tie. This network structure was effective for our project, because it forced the computer to not overcomplicate the weights of each variable during the prediction process. More specifically, the relatively small number of nodes in each layer decreased efficiently, making the value manipulation between the penultimate layer and the output layer simpler (which made the network's preditions more consistently accurate). 
 
 ![image](https://user-images.githubusercontent.com/74797855/132579660-455cf4fc-3983-4d9f-bcd2-688cd04482f9.png)
+
 Fig. 7 _Visualization of neural network_
 
 ## Future Work and Improvements
