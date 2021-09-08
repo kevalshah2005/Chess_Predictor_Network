@@ -1,10 +1,16 @@
 ## Chess Match Predictor
 
-You can use the [editor on GitHub](https://github.com/Systemoutprintjhb/Chess_Predictor_Network/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+What if you could predict the results of a chess match without knowing the players' individual moves?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The main goal of our project was to create a neural network that could anticipate the outcome of a chess game, given only a small number of variables. More specifically, our group wanted to create a machine learning model that was more effective at predicting the results of chess matches than simpler methods, such as random guessing. Below is our report describing the process of how the neural network was created, the results the model yielded, and what conclusions can be drawn from this information.
 
-### Markdown
+### Main Sections of Report:
+1. Introduction to Machine Learning
+2. Data Information
+3. Neural Network Overview
+4. Results and Analysis
+5. Possible Future Improvements
+6. Acknowledgements
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
@@ -15,8 +21,6 @@ Syntax highlighted code block
 ## Header 2
 ### Header 3
 
-- Bulleted
-- List
 
 1. Numbered
 2. List
