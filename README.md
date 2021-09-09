@@ -11,7 +11,7 @@ The main goal of our project was to create a neural network that could anticipat
 4. Results and Analysis
 5. Future Work and Improvements
 6. Applications
-7. Acknowledgements
+7. Sources and Acknowledgements
 
 ## Introduction to Neural Networks
 
@@ -101,7 +101,27 @@ Fig. 10
 To summarize our findings, the results displayed by these calculations and comparisons demonstrate two main details about our data set and network. Firstly, the model overfitting at epoch 7 demonstrates that there were imperfections in our data set and or neural network. One possible culprit is that the data set simply wasn't large enough to prevent the model from becoming biased towards the training data. Another aspect of the project that could have caused this problem is that the network structure wasn't in its most effective form (meaning the amount of layers and nodes were not completely optimized). On a more positive note, these results show that our model was successful in learning the importance of variables included in the data set other than just ELO (one of the most significant factors in trying to predict a match's outcome).
 
 ## Future Work and Improvements
+
 While our model worked well, there are still a few things that we want to improve on in the future. First of all, we want to be able to use more RAM. We tried to run all 6 million games we had collected (and a few million more that we had stored up in case we needed them), but we ran out of RAM after only a million games, even with 24 GB of RAM. If we are able to run this on a powerful computer with hundreds of gigabytes of RAM, the model will have more games to go off of and thus will be more accurate. Another thing that we would like to do in the future is optimising the layers and nodes in each layer a little better. Finding the optimal balance between these two would allow us to get the highest accuracy possible with our data and type of network. 
 
 ## Applications
+
 Our model can be used to improve the openings of amateur chess players. They can look at the data and see which openings performed the best for the ELO range that they are in and implement them into their own chess game. Obviously, chess openings are determined by both players, but with enough practice they can steer the game somewhat in the direction that they want to give them an advantage. Additionally, spectators who are not very familiar with chess can use this tool to get an idea of which player is most likely to win after a few moves.
+
+## Sources and Acknowledgements
+
+### Libraries Used
+-Numpy
+-Tensorflow
+-Pandas
+-Keras
+-Matplotlib
+
+### Original Data set
+Link: https://www.kaggle.com/arevel/chess-games
+
+### Sigmoid vs. ReLU
+Article: https://medium.com/geekculture/relu-vs-sigmoid-5de5ff756d93
+
+### General NN Information
+Book: https://www.manning.com/books/deep-learning-with-python-second-edition?gclid=CjwKCAjwvuGJBhB1EiwACU1AiWRYAeI7L8XWG6nEAfMYcXaUeK6hTgCq5X21Y5OjxIHy0a2Bf0Xa_hoCC84QAvD_BwE
