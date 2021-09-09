@@ -6,12 +6,12 @@ The main goal of our project was to create a neural network that could anticipat
 
 ## Main Sections of Report:
 1. [Introduction to Neural Networks](#introduction-to-neural-networks)
-2. Our Data
-3. Neural Network Overview
-4. Results and Analysis
-5. Future Work and Improvements
-6. Applications
-7. Sources and Acknowledgements
+2. [Our Data](#our-data)
+3. [Neural Network Overview](#neural-network-overview)
+4. [Results and Analysis](#results-and-analysis)
+5. [Future Work and Improvements](#future-work-and-improvements)
+6. [Applications](#applications)
+7. [Sources and Acknowledgements](#sources-and-acknowledgements)
 
 ## Introduction to Neural Networks
 
@@ -109,6 +109,9 @@ While our model worked well, there are still a few things that we want to improv
 Our model can be used to improve the openings of amateur chess players. They can look at the data and see which openings performed the best for the ELO range that they are in and implement them into their own chess game. Obviously, chess openings are determined by both players, but with enough practice they can steer the game somewhat in the direction that they want to give them an advantage. Additionally, spectators who are not very familiar with chess can use this tool to get an idea of which player is most likely to win after a few moves.
 
 ## Sources and Acknowledgements
+
+### Guidance and Feedback
+Professor Donald Smith, Guilford College: https://www.guilford.edu/profile/dsmith4
 
 ### Libraries Used
 -Numpy
