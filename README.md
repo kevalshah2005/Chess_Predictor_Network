@@ -128,4 +128,3 @@ Article: https://medium.com/geekculture/relu-vs-sigmoid-5de5ff756d93
 
 ### General NN Information
 Book: https://www.manning.com/books/deep-learning-with-python-second-edition?gclid=CjwKCAjwvuGJBhB1EiwACU1AiWRYAeI7L8XWG6nEAfMYcXaUeK6hTgCq5X21Y5OjxIHy0a2Bf0Xa_hoCC84QAvD_BwE
-
