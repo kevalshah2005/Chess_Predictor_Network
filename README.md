@@ -81,7 +81,7 @@ _Written implementation of loss function, layer activations, accuracy tracker, a
 
 ## Results and Analysis
 
-Our netwok was able to predict the outcome of a completely new chess match 62.08% of the time (after epoch 7), with a validation/testing loss of ~0.75. Figs. 8 and 9 displays the evolution of these output accuracy up until epoch 7, as well as afterwards, when the network began to suffer from overfitting.
+Our netwok was able to predict the outcome of a completely new chess match 62.08% of the time (after epoch 7), with a validation/testing loss of ~0.75. Figs. 8 and 9 display the evolution of these output accuracy up until epoch 7, as well as afterwards, when the network began to suffer from overfitting.
 
 ![image](https://user-images.githubusercontent.com/74797855/132607297-53125e56-ef89-4470-ac94-4d25272f4abe.png)
 
