@@ -5,7 +5,7 @@ What if you could predict the results of a chess match without knowing the playe
 The main goal of our project was to create a neural network that could anticipate the outcome of a chess game, given only a small number of variables. More specifically, our group wanted to create a machine learning model that was more effective at predicting the results of chess matches than simpler methods, such as random guessing. Below is our report describing the process of how the neural network was created, the results the model yielded, and what conclusions can be drawn from this information.
 
 ## Main Sections of Report:
-1. [Introduction to Neural Networks](#-intro-to-neural-networks)
+1. [Intro to Neural Networks](#introduction-to-neural-networks)
 2. Our Data
 3. Neural Network Overview
 4. Results and Analysis
