@@ -20,7 +20,7 @@ Defined formally, neural networks are computer systems modeled on the human brai
 ![image](https://user-images.githubusercontent.com/74797855/132502675-7d31f25d-f3b9-4298-9e34-b3f54ee53015.png)
 
 Fig. 1 _Example of basic neural networks archiecture_
-
+<p><a href="https://www.w3.org/">W3C</a></p>
 ### Network Learning
 In order to improve a neural network's accuracy, the structure described above repetitively produces outputs, each time changing the weights of each node. It makes these changes based on the backpropagation algorithm. This algorithm minimizes a network's loss, which represents the distance between the output value and the expected value. As this is done after each output is produced, the network becomes more increasingly accurate. This process is called training. During training, a network's accuracy is also tested on validation data, in order to make sure the algorithm is applicable to new data, not just the training data. If a neural network is found to have lower validation accuracy than training accuracy, it is considered to be suffering from overfitting (displayed in Fig. 2). The solution to the issue is to decrease the number of epochs (repetitions) in training, as doing so makes the network more applicable to other data. When the optimal number of layers, nodes, and epochs is found, the network can then be used on new input data.
 
